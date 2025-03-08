@@ -113,6 +113,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 15rem;
+    
 }
 
 .home-content {
@@ -123,8 +124,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 8rem;
-    font-weight: 700;
+    font-size: 7rem;
     margin-top: 1.5rem;
     line-height: 1;
 }
@@ -138,6 +138,8 @@ section {
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.8;
+    margin: 50px;
+    
 }
 
 .home-img img {
@@ -328,12 +330,18 @@ section {
     background-color: var(--second-bg-color);
 }
 
+.projects h2 {
+    display: flex;
+    justify-content: center;
+}
+
 .projects-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
+    justify-content: center
 }
 
 .project-card {
