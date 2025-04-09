@@ -135,10 +135,9 @@ section {
 }
 
 .home-content p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8;
-    margin: 50px;
     
 }
 
@@ -492,6 +491,10 @@ section {
         text-align: center;
     }
 
+    .home p {
+        margin: 30px;
+    }
+
     .home-img img {
         width: 56vw;
     }
@@ -508,6 +511,13 @@ section {
 
     .about img {
         width: 56vw;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact form {
