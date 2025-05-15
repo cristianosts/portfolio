@@ -275,7 +275,7 @@ section {
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
     gap: 2.5rem;
 }
@@ -336,7 +336,7 @@ section {
 
 .projects-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
